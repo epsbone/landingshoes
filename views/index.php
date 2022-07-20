@@ -179,30 +179,20 @@
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                  <div class="contact">
-                     <form>
-                        <div class="row">
-                           <div class="col-sm-12">
-                              <input class="contactus" placeholder="Name" type="text" name="Name">
-                           </div>
-                           <div class="col-sm-12">
-                              <input class="contactus" placeholder="Phone Number" type="text" name="Phone Number">
-                           </div>
-                           <div class="col-sm-12">
-                              <input class="contactus" placeholder="Email" type="text" name="Email">
-                           </div>
-                           <div class="col-sm-12">
-                              <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                           </div>
-                           <div class="col-sm-12">
-                              <button class="send">Send</button>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-               </div>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                            <form action="mailTest.php" method="POST" class="form-signup" id="contactForm">
+                            <div class="row input-group-newsletter">
+                                <div class="col"><input class="form-control" id="email" type="email" name="email" placeholder="Enter email address..." aria-label="Enter email address..." text-transform="none" /></div>
+                                <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit" name="getinformation">Notify Me!</button></div>
+                            </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                   <div class="rable-box">
                      <figure>
